@@ -16,9 +16,9 @@
 
 
 ## Live Sessions (Recordings)
-  * Group 1: [Recordings G 601]()
+  * Group 1: [Recordings G 601](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/IgDeu6qUOXlvT6dYTb_l6aVHAVjvmEjv_59v8bvlouGLObA?e=IfJXYU)
 
-  * Group 2: [Recordings G 602]()
+  * Group 2: [Recordings G 602](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/IgC6E4AaEyjSRYamRcHv1HeMAcsYxvsRics75MEExJjFY6M?e=tDe2dI)
      
 ## General Requirements
 General requirements. Please be aware that a set of requirements specific to each session will be shown in each session subsection (Some items may be repeated).
