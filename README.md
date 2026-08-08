@@ -1,4 +1,3 @@
----
 # MR3001C Cyber-Physical Systems I
 
   ## Introduction
