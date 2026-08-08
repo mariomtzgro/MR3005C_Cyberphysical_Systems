@@ -15,7 +15,8 @@
 * Start Date: 10 August 2026
 
 ## Virtual Machine
-  * VM ROS 1: [Download](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/IgCNTvgxWFReTamghhohft-YAel5teQABaE1_cY2ZiSg6hI?e=H08jMq)
+  * VM ROS 1: [Download](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/IgCNTvgxWFReTamghhohft-YARZ4JPznji2nmGO-O379d4g?e=lXCsyM)
+
 
 ## Live Sessions (Recordings)
   * Group 1: [Recordings G 601](https://tecmx-my.sharepoint.com/:f:/g/personal/mario_mtz_tec_mx/IgDeu6qUOXlvT6dYTb_l6aVHAVjvmEjv_59v8bvlouGLObA?e=IfJXYU)
