@@ -1,15 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/MR3001C_Cyber-Physical_Systems_I/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/MR3001C_Cyber-Physical_Systems_I/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
-  <img alt="Shows ITESM logo in black or white." width="160" align="right">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/MR3001C_Cyber-Physical_Systems_I/blob/main/Misc/Logos/MCR2_Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/MR3001C_Cyber-Physical_Systems_I/blob/main/Misc/Logos/MCR2_Logo_Black.png">
-  <img alt="Shows MCR2 logo in black or white." width="150" align="right">
-</picture>
-
 ---
 # MR3001C Cyber-Physical Systems I
 
@@ -23,18 +11,15 @@
 * This repository is organised by sessions. Each subfolder contains all the necessary files for each one of the activities of this course.
    
 ## General Information
-* MCR2 Person in Charge: Dr Alexandru Stancu and Dr Mario Martinez
-* Tecnológico de Monterrey Person in Charge: Dr Consuelo Rodríguez Padilla
+* Professor: Dr Mario Martinez
 * Duration: 10 Weeks
-* Start Date: 7 August 2023
+* Start Date: 10 August 2026
 
 
 ## Live Sessions (Recordings)
-  * Group 1 (Temporary): [Recordings G1](https://manchesterrobotics-my.sharepoint.com/:f:/g/personal/mario_mtz_manchester-robotics_com/El3itN-TsDJIuMeaSRixa48BT_nMs-610TfEHTGRmYAbpg?e=o3sjfk)
+  * Group 1: [Recordings G 601]()
 
-  * Group 2 (Temporary): [Recordings G2](https://manchesterrobotics-my.sharepoint.com/:f:/g/personal/mario_mtz_manchester-robotics_com/EgIbl4T_UwhDv_b1xOEtG5IBBHSB4eMinKGPtAjig39aJQ?e=GQdayj)
-
-  * Recordings: [Lectures](https://drive.google.com/drive/folders/1RSURGX6_LB2gyJpEMES71Xfy4662n-W8?usp=drive_link)
+  * Group 2: [Recordings G 602]()
      
 ## General Requirements
 General requirements. Please be aware that a set of requirements specific to each session will be shown in each session subsection (Some items may be repeated).
@@ -47,97 +32,51 @@ General requirements. Please be aware that a set of requirements specific to eac
 
 ## Sessions
 
-### Session 1: Introduction
-  This session will introduce the teaching team and the basics of ROS.
+### Week 1 -2: Introduction
+  These sessions will introduce the teaching team and the basics of ROS.
   #### Topics:
- * Who are we? 
- * Introduction to robotics.
  * Introduction to VM/Ubuntu
  * Introduction to ROS
  * Overview of ROS Environment
    * Topics, Messages
    * Launch Files
 
-  #### Activities
-
-   * ##### Activity 1: Talker and Listener
-     Generate a node that sends a message to another node to listen to it.
-
-   * ##### Activity 2: Launch Files
-     Create a Launch file for the nodes created.
-
-  #### Mini-Challenges
-
-  * ##### Mini-Challenge 1: ROS Nodes
-    Generate a node that sends a signal to another node to process it.
-  
-  **Requirements:** 
- * Computer with access to Zoom
- * Ubuntu 18.04 or 20 
- * ROS Melodic /Noetic Installed (Full installation).
- * If Ubuntu 18.04 or 22.04 cannot be installed, MCR2 offers a Virtual Machine with ROS preinstalled (installation instructions in Week 1 Folder).
 
 
 
-
-
-### Session 2: ROS Practicalities
-  This week will introduce some useful ROS practicalities.
+### Week 3-4: ROS Practicalities
+  This week will introduce some useful ROS practicalities and coordinate transformation.
   #### Topics:
  * ROS Namespaces
  * ROS Parameter Server
  * ROS Custom Messages
-
-
-  #### Activities
-
-   * ##### Activity 3: Parameters
-     Parametrise previous nodes.
-
-   * ##### Activity 4: Custom Messages
-     Create a custom message for the previous nodes.
-
-  #### Mini-Challenges
-
-  * ##### Mini-Challenge 2: ROS Nodes
-    P/PI Controller from scratch to a 1st order simulated system.  
-  
-  **Requirements:** 
-    Requirements of Session 1.
+ * Coordinate Transforms
+ * RVIZ
 
 
 
 
-
-
-### Session 3: ROS-Hardware Communication
+### Week 5-6: ROS-Hardware Communication
   This week will introduce hardware communication between ROS and the Hackerboard/Arduino using ROS Serial.
   #### Topics:
   * ROS Serial
   * Arduino / ESP32 / Hackerboard
   * ROS Serial/Arduino Communication.
 
-  #### Activities
+<img width="4274" height="2472" alt="Hardware" src="https://github.com/user-attachments/assets/fe62a460-a5bd-4221-84a2-493e6ddb6593" />
 
-   * ##### Activity 5: ROS Serial Communication
-     Rosserial communication publisher with Arduino/ESP32.
-     Rosserial communication subscriber with Arduino/ESP32.
+### Week 7-8: Dynamical Simulation in ROS
+  This week will introduce Dynamical Simulation in ROS.
+  #### Topics:
+  * Dynamical Systems
+  * Dynamical Simulation
+  * ROS Simulation
+  * Gazebo Simulation.
 
-  #### Mini-Challenges
 
-  * ##### Mini-Challenge 3: ROS Nodes
-    ROS communication with an Ultrasonic Sensor. 
-  
-  **Requirements:** 
-  *	Requirements of Session 1.
-  *	Installation of the Arduino IDE and the Rosserial package in the VM or Ubuntu (See instructions on Session2 MCR2_Arduino_IDE_Confirguration), 
-  * Access to an Arduino or a Hackerboard and an HC-SRC04 Ultrasonic Sensor.
-
-<picture>
-  <source srcset="https://github.com/ManchesterRoboticsLtd/MR3001C_Cyber-Physical_Systems_I/assets/67285979/53196e95-1930-4e9a-9a29-ea66b2e6138b">
-  <img alt="Shows Required Materials." width="630" align="center">
-</picture>
-
+### Week 9-10: Final
+  * Recap
+  * Final Exam
 
 
   ---
